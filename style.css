@@ -244,6 +244,7 @@ a, a:hover, a:checked, a:active {
   background-color: #FEFDFC;
   border: 1px solid black;
   transition: transform 0.3s ease;
+  color: black
 }
 .grid2__item1 button:hover {
   transform: scale(1.1);
