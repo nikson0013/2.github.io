@@ -1,0 +1,39 @@
+$ibm: "IBM Plex Mono", monospace;
+$inter: "Inter", sans-serif;
+$eb: "EB Garamond", serif;  
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $eb;
+    background-color: #FEFDFC;
+}
+
+a, a:hover, a:checked, a:active{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.middle {
+    padding: 100px 80px 80px 80px;
+}
+
+.line {
+    width: 100%
+}
+
+@import 'start/start-line';
+@import 'start/header';
+@import 'start/start-content';
+@import 'middle/brand-line';
+@import 'middle/grid-container1';
+@import 'middle/grid-container2';
+@import 'middle/refresh';
+@import 'middle/explore';
+@import 'ending/ending';
+@import 'ending/footer';
+@import 'media'

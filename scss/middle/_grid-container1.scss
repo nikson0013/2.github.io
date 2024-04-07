@@ -1,0 +1,28 @@
+.grid-container1 {
+    display: grid;
+    grid-template: 3fr 1fr / 1fr 1fr;
+    justify-items: stretch;
+    column-gap: 40px;
+    padding-bottom: 118px;
+}
+.grid1__item1, .grid1__item2 {
+    width: 100%;
+}
+.grid1__item3, .grid1__item4 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 15px;
+    span {
+        font-family: $eb;
+        font-size: 25px;
+        letter-spacing: 0.7px;
+    }
+    p {
+        margin-top: 11px;
+        color: #555;
+        font-family: $inter;
+        font-size: 14px;
+    }
+}
